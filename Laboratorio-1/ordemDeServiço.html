@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem de Serviço</title>
+</head>
+<body>
+    <header>
+        <h1>Preencha seus Dados:</h1>
+        <hr>
+    </header>
+    
+    <article>
+    <form method="get" action="">
+       <div>
+        <label for="nome">Nome do Cliente:</label><br>
+        <input type="text" id="nome" name="nome" value="Nome">
+       </div>
+       <div >
+        <label for="CPF">CPF: </label><br>
+        <input type="text" id="CPF" name="CPF" value="CPF">
+       </div>
+       <div>    
+        <label for="Endereço">Endereço do Cliente:</label><br>
+        <input type="text" nome="Endereço" id="Endereço" value="logradouro">
+        <input type="text" nome="Endereço" id="Endereço" value="CEP">
+        <input type="text" nome="Endereço" id="Endereço" value="Cidade">
+        <input type="text" nome="Endereço" id="Endereço" value="Estado">
+       </div>
+       <div>
+        <label for="Modelo">Modelos de celular que trabalhamos:</label>
+        <select name="Modelo" id="Modelo" >
+            <option value="default" selected> Selecione uma Opção abaixo</option>
+            <option value="Iphone" >Iphone</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Motorola">Motorola</option>
+            <option value="Xiaomi">Xiaomi</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="Relato">Conte aqui brevemente qual seu problema:</label><br>
+        <textarea name="Relato" id="Relato" cols="30" rows="10"></textarea>
+       </div>
+
+       <div >
+        <label for="Imagem">Coloque aqui uma imagem de seu aparelho: </label>
+        <input type="file" name="Imagem" id="Imagem" accept=".jpg,.jpeg">
+       </div>
+       <label for="Enviar"></label>
+       <input type="submit" name="Enviar" id="Enviar" value="Enviar">
+    </form>
+    </article>
+    <a href="index.html">Retornar a página principal</a>
+</body>
+</html>

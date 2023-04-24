@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho-formulario">    
+        <h1>Cadastro</h1>
+    </header>
+    <article class="Formulario">
+        <form action="" method="get" >
+            <div class="inputBox">
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" id="nascimento" name="nascimento">
+            </div>
+            <div class="inputBox">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="inputBox">
+                <label for="numero">Telefone</label>
+                <input type="tel" name="numero" id="numero">
+            </div>
+            <div class="inputBox">
+                <label for="mes">Mês de adesão</label>
+                <input type="month" name="mes" id="mes">
+            </div>
+            <div class="inputBox">
+                <label for="NFilmes">Número de filmes que o você pretende ver semanalmente(1 a 7)</label>
+                <input type="number" name="NFilmes" id="NFilmes" min="1" max="7">
+            </div>
+            <div class="inputBox">
+                <label for="cor">Cor do seu Perfil</label>
+                <input type="color" name="cor" id="cor">
+            </div>
+            <div class="inputBox">
+                <label for="endereço">Endereço da sua página:</label>
+                <input type="url" name="endereço" id="endereço">
+            </div>
+            <div class="inputBox">
+                <label for="dataetempo">Data e hora que você prefere utilizar cupons</label>
+                <input type="datetime-local" name="dataetempo" id="dataetempo">
+            </div>
+            <div class="inputBox">
+                <label for="genero">Gênero preferido:</label>
+                
+            </div>
+            <div class="inputBox">
+                <input type="range" name="genero" id="genero" value="ação" min="0" max="10"> Ação
+            </div>
+            <div class="inputBox">
+                <input type="range" name="genero" id="genero" value="ação" min="0" max="10"> Drama
+            </div>
+            <div class="inputBox">
+                <input type="range" name="genero" id="genero" value="ação" min="0" max="10"> Romance
+            </div>
+            <div class="inputBox">
+                <input type="range" name="genero" id="genero" value="ação" min="0" max="10"> Comédia
+            </div class="inputBox">
+            <div class="inputBox">
+                <input type="range" name="genero" id="genero" value="ação" min="0" max="10"> Suspense
+            </div>
+            <div class="inputBox">
+                <input type="range" name="genero" id="genero" value="ação" min="0" max="10"> Terror
+            </div>
+            <div class="inputBox">
+                <input type="range" name="genero" id="genero" value="ação" min="0" max="10"> Ficção científica
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+    </article>
+    <footer class="footer-formulario">
+        <a href="index.html">Retornar a Página Principal</a>
+    </footer>
+</body>
+</html>
