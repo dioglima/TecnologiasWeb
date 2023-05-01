@@ -1,0 +1,197 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+  *{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;  
+    
+  }
+
+
+/* Primeira Questão */
+
+
+  @media   (min-width: 320px) {
+    .container{
+        background-color: black;
+    }
+  }
+
+  @media   (min-width: 480px) {
+    .container{
+        background-color: lightblue;
+    }
+    
+  }
+
+  @media  (min-width: 600px) {
+    .container{
+        background-color: lightgreen;
+    }
+    
+  }
+
+  @media  (min-width: 768px) {
+    .container{
+        background-color: lightyellow;
+    }
+    
+  }
+
+  @media  (min-width: 800px){
+    .container{
+        background-color: brown;
+    }
+  }
+
+  @media  (min-width: 1024px){
+    .container{
+        background-color:darkblue ;
+    }
+    
+  }
+
+  @media  (min-width: 1280px){
+    .container{
+        background-color: darkgreen ;
+    }
+  }
+
+  @media  (min-width: 1440px){
+    .container{
+        background-color: darkred;
+    }
+  }
+ 
+  /*Segunda Questão*/
+
+  @media (min-width: 240px) and (max-width: 500px){
+    .paisagem{
+        background-color: blueviolet;
+        visibility: hidden
+    }
+
+  }
+  
+  /*Terceira Questão*/
+
+  @media screen and (max-width: 768px ){
+    body{
+        background-color: aquamarine;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1279px) {
+    body{
+      width: 100%;
+      height: 60rem;
+      background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+
+        
+    }
+    
+  }
+
+  @media screen and  (min-width: 1280px) {
+    body{
+      width: 100%;
+      height: 30rem;
+      background-image: linear-gradient(to top, blue,red,black);
+
+
+        
+    }
+    
+  }
+
+  /*Quarta Questão*/
+
+  .br{
+    background-color: gray;
+    text-align: center;
+    padding:  0px 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0,0.25);
+  }
+  
+  .ale{
+    background-color: gray;
+    text-align: center;
+    padding:  0px 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0,0.25);
+  }
+
+  .arg{
+    background-color: gray;
+    text-align: center;
+    padding:  0px 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0,0.25);
+  }
+
+  .bel{
+    background-color: gray;
+    text-align: center;
+    padding:  0px 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0,0.25);
+  }
+
+  .uru{
+    background-color: gray;
+    text-align: center;
+    padding:  0px 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarala', sans-serif;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0,0.25);
+  }
+
+  @media  (max-width: 768px) {
+    .imagem{
+      visibility: hidden;
+    }
+  }
+
+  @media screen and (min-width:769px) and (max-width:1799px){
+    .container-Q4{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .imagem{
+      visibility: hidden;
+    }
+  }
+
+  @media screen and (min-width: 1800px) {
+    .container-Q4{
+      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: white;
+      padding: 50px 50px;
+    }
+  }
+ 
